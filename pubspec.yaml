@@ -49,8 +49,12 @@ flutter:
     - images/tab_contact_list_normal.png
     - images/tab_profile_normal.png
     - images/tab_message_normal.png
-  # 菜单按钮
-  # 好友模块图标
+    # 菜单按钮
+    - images/icon_menu_ dialogue.png
+    - images/icon_menu_addfriend.png
+    - images/icon_menu_service.png
+    # 好友模块图标
+    - images/default_avatar.jpeg
   # 我的模块图标
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.

@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
             withZoom: true,
             withLocalStorage: true, // 是否本地储存
           ),
-      // 'search': (BuildContext context) => new Search(),
+      'search': (BuildContext context) => new Search(),
     };
     // end
     return MaterialApp(
