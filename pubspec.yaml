@@ -55,6 +55,8 @@ flutter:
     - images/icon_menu_service.png
     # 好友模块图标
     - images/default_avatar.jpeg
+    - images/icon_addfriend.png
+    - images/icon_groupchat.png
   # 我的模块图标
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
