@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
 
-import './app.dart';
+import './routes/index.dart';
 import './loading.dart';
-import './search.dart';
 
 void main() => runApp(MyApp());
 
@@ -11,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // 路由表
-    var routes = <String, WidgetBuilder>{
+    /* var routes = <String, WidgetBuilder>{
       "app": (BuildContext context) => new App(),
       "/friends": (_) => new WebviewScaffold(
             // webview 插件
@@ -23,7 +22,7 @@ class MyApp extends StatelessWidget {
             withLocalStorage: true, // 是否本地储存
           ),
       'search': (BuildContext context) => new Search(),
-    };
+    }; */
     // end
     return MaterialApp(
       debugShowCheckedModeBanner: false,

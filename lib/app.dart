@@ -17,6 +17,8 @@ class _AppState extends State<App> {
   MessagePage message;
   // 好友列表页面
   Contact contact;
+  // 好友列表页面
+  Personal personal;
 
   // 根据当前索引返回不同页面
   currentPage() {
@@ -35,8 +37,10 @@ class _AppState extends State<App> {
         return contact;
       case 2:
         // 返回我的页面
-        return new Text('我的页面');
-        break;
+        if (personal == null) {
+          personal = new Personal();
+        }
+        return personal;
       default:
     }
   }

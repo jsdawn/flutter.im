@@ -31,8 +31,28 @@ List<ContactVO> contactData = [
     avatarUrl: '',
   ),
   new ContactVO(
+    seationKey: 'H',
+    name: '韩非',
+    avatarUrl: '',
+  ),
+  new ContactVO(
+    seationKey: 'H',
+    name: '红莲',
+    avatarUrl: '',
+  ),
+  new ContactVO(
+    seationKey: 'W',
+    name: '卫庄',
+    avatarUrl: '',
+  ),
+  new ContactVO(
     seationKey: 'Y',
     name: '焰灵姬',
+    avatarUrl: '',
+  ),
+  new ContactVO(
+    seationKey: 'Z',
+    name: '张良',
     avatarUrl: '',
   ),
 ];
