@@ -7,3 +7,9 @@ A new Flutter project.
 ```
 flutter run
 ```
+
+## get android Apk
+
+```
+flutter build apk
+```
